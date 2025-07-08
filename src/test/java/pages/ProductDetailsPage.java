@@ -26,6 +26,7 @@ public class ProductDetailsPage {
         public String getSLBDes(){
             return base.getText(SLBText);
         }
+
         public ProductPage getProductpage(){
             return new ProductPage();
         }
